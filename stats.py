@@ -9,9 +9,9 @@ def num_of_words():
 #count each character in the book
 def char_count():
     #split book into seperate char
-    book = [*get_book_text().lower()]
+    #book = [*get_book_text().lower()]
     
     #count each char 
-    count_of_t = count_letters(book)
+    count_of_t = count_letters([*get_book_text().lower()])
 
     return count_of_t
