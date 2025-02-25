@@ -1,10 +1,11 @@
 from stats import num_of_words
 from stats import char_count
 from get_book import set_path
+import sys
 
 def main():
-    
-    print(char_count())
+
+# Your program's main logic goes here
 
     print("============ BOOKBOT ============")
     print(f"Analyzing book found at {set_path()}...")
